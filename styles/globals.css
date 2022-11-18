@@ -770,12 +770,17 @@ span.text-red {
     line-height: 1.3;
   }
 
+  .beats-solo {
+    font-size: 20px !important;
+  }
+
   .hero-banner-container h1 {
-    font-size: 50px;
+    font-size: 70px;
+    line-height: 70px;
   }
 
   .hero-banner-container h3 {
-    font-size: 40px;
+    font-size: 35px;
   }
 
   .hero-banner-container button {
