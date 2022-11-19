@@ -24,10 +24,10 @@ const Home = ({ products, bannerData }) => {
 
 export const getServerSideProps = async () => {
   const query = '*[_type == "product"]';
-  const products = await await client.fetch(query);
+  const products = await client.fetch(query);
 
   const bannerQuery = '*[_type == "banner"]';
-  const bannerData = await await client.fetch(bannerQuery);
+  const bannerData = await client.fetch(bannerQuery);
 
   return {
     props: {
