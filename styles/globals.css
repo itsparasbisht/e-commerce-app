@@ -158,6 +158,7 @@ span.text-red {
   width: 100%;
   background-size: cover;
   background-repeat: no-repeat;
+  border-radius: 15px;
 }
 
 .hero-banner-container .beats-solo {
@@ -242,6 +243,7 @@ span.text-red {
 .footer-banner-container {
   padding: 100px 40px;
   background-color: #f02d34;
+  border-radius: 15px;
   position: relative;
   height: 400px;
   line-height: 1;
