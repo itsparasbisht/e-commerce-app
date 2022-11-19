@@ -15,7 +15,7 @@ const Product = ({ product: { image, name, slug, price } }) => {
             style={{ objectFit: "cover", borderRadius: "10px" }}
           />
           <p className="product-name">{name}</p>
-          <p className="product-price">Rs. {price}</p>
+          <p className="product-price">₹ {price}</p>
         </div>
       </Link>
     </div>
