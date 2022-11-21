@@ -1,4 +1,3 @@
-import Link from "next/link";
 import React from "react";
 import { AiOutlineShopping } from "react-icons/ai";
 import Cart from "./Cart";
@@ -9,8 +8,8 @@ const Navbar = () => {
 
   return (
     <div className="navbar-container">
-      <p className="logo">
-        <Link href={"/"}>Leaf Art Store</Link>
+      <p className="logo" onClick={() => (window.location = "/")}>
+        <img src={"/plant.png"} /> Leaf Art Store
       </p>
       <button
         type="button"
